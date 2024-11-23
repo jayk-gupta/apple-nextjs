@@ -1,0 +1,6 @@
+.heading{
+    @apply font-bold mb-2
+}
+.list{
+    @apply flex flex-col gap-2
+}

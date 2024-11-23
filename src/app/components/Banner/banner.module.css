@@ -1,0 +1,22 @@
+.home{
+    @apply h-full 
+}
+.container{
+@apply  bg-center bg-cover h-[48rem]  flex gap-12 justify-center pt-24 text-white
+}
+.iphoneContent{
+@apply flex flex-col justify-between
+h-[42rem] p-12 items-center
+}
+.header{
+    @apply flex flex-col  items-center text-2xl font-bold
+}
+.header h2{
+    @apply text-[3.8rem] pb-6
+}
+.footer{
+    @apply flex justify-center gap-6  font-bold pb-4
+}
+.iphoneContent p{
+    @apply text-gray-400 text-base
+}
